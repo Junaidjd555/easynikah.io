@@ -1,0 +1,340 @@
+<app-user-header></app-user-header>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2" style= "background-color: beige; margin-left: 10px;">
+        <div class="nav-side-menu">
+            
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+          
+                <div class="menu-list">
+          
+                    <ul id="menu-content" class="menu-content collapse out">
+                        <li  data-toggle="collapse" data-target="#products" class="collapsed active" style="background-color: brown;">
+                            <a href="#"> Search By Id</a>
+                          </li>
+                        <div class="d-flex justify-content-center h-100">
+                            <div class="searchbar">
+                              <input class="search_input" type="text" name="" placeholder="Search...">
+                              <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                            </div>
+                          </div>
+                           <li  data-toggle="collapse" data-target="#products" class="collapsed active" style="background-color: brown;">
+                          <a href="#"><i class="fa fa-heart"></i> Matches</a>
+                        </li>
+                       
+                            <li><a href="#">New Match</a></li>
+                            <li><a href="#">Visit to View</a></li>
+                            <li><a href="#">Shortlisted Match</a></li>
+                            <li><a href="#">Mutual Match</a></li>
+                            <li><a href="#">Person looking For me</a></li>
+
+                            
+                             
+                            
+        
+        
+                        <li data-toggle="collapse" data-target="#" class="collapsed" style="background-color: brown;">
+                          <a href="#"><i class="fa fa-user"></i> Filter Profiles By</a>
+                        </li>  
+
+                        <li data-toggle="collapse" data-target="#Age" class="collapsed">
+                            <a href="#"><i class="fa fa-sign-language"></i>Age  <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="Age">
+                            <input type="number"  name="MinAge"  class="form-control" min="0"  id="MinAge" >&nbsp;to&nbsp;
+                            <input type="number"  name="MaxAge"  class="form-control" min="0"  id="MaxAge" >
+                           
+                          </ul>
+
+                          <li data-toggle="collapse" data-target="#height" class="collapsed">
+                            <a href="#"><i class="fa fa-check"></i>Height <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="height">
+                            <option value="" selected="selected" placeholder="Please Select">Please Select</option>
+                            <li value="1">4' 0" (1.22 mts)</li>
+                            <li value="2">4' 1" (1.24 mts)</li>
+                            <li value="3">4' 2" (1.28 mts)</li>
+                            <li value="4">4' 3" (1.31 mts)</li>
+                            <li value="5">4' 4" (1.34 mts)</li>
+                            <li value="6">4' 5" (1.35 mts)</li>
+                            <li value="7">4' 6" (1.37 mts)</li>
+                            <li value="8">4' 7" (1.40 mts)</li>
+                            <li value="9">4' 8" (1.42 mts)</li>
+                            <li value="10">4' 9" (1.45 mts)</li>
+                            <li value="11">4' 10" (1.47 mts)</li>
+                            <li value="12">4' 11" (1.50 mts)</li>
+                            <optgroup label="&nbsp;"></optgroup>
+                            <li value="13">5' 0" (1.52 mts)</li>
+                            <li value="14">5' 1" (1.55 mts)</li>
+                            <li value="15">5' 2" (1.58 mts)</li>
+                            <li value="16">5' 3" (1.60 mts)</li>
+                            <li value="17">5' 4" (1.63 mts)</li>
+                            <li value="18">5' 5" (1.65 mts)</li>
+                            <li value="19">5' 6" (1.68 mts)</li>
+                            <li value="20">5' 7" (1.70 mts)</li>
+                            <li value="21">5' 8" (1.73 mts)</li>
+                            <li value="22">5' 9" (1.75 mts)</li>
+                            <li value="23">5' 10" (1.78 mts)</li>
+                            <li value="24">5' 11" (1.80 mts)</li>
+                            <optgroup label="&nbsp;&nbsp;"></optgroup>
+                            <li value="25">6' 0" (1.83 mts)</li>
+                            <li value="26">6' 1" (1.85 mts)</li>
+                            <li value="27">6' 2" (1.88 mts)</li>
+                            <li value="28">6' 3" (1.91 mts)</li>
+                            <li value="29">6' 4" (1.93 mts)</li>
+                            <li value="30">6' 5" (1.96 mts)</li>
+                            <li value="31">6' 6" (1.98 mts)</li>
+                            <li value="32">6' 7" (2.01 mts)</li>
+                            <li value="33">6' 8" (2.03 mts)</li>
+                            <li value="34">6' 9" (2.06 mts)</li>
+                            <li value="35">6' 10" (2.08 mts)</li>
+                            <li value="36">6' 11" (2.11 mts)</li>
+                            <optgroup label="&nbsp;&nbsp;&nbsp;"></optgroup>
+                          <li value="37">7' (2.13 mts) plus</li>
+                           
+                          </ul>
+
+                          <li data-toggle="collapse" data-target="#Status" class="collapsed">
+                            <a href="#"><i class="fa fa-smile-o"></i>Marital Status <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="Status">
+                                <mat-radio-group aria-label="Select an option">
+                                   <li> <mat-radio-button value="1">Never Married</mat-radio-button></li>
+                                    <li><mat-radio-button value="2">Married</mat-radio-button></li>
+                                    <li><mat-radio-button value="3">Awaiting Divorce</mat-radio-button></li>
+                                    <li><mat-radio-button value="4">Divorced</mat-radio-button></li>
+                                    <li><mat-radio-button value="5">Widowed</mat-radio-button></li>
+                                    <li><mat-radio-button value="6">Annulled</mat-radio-button></li>
+                                  </mat-radio-group>
+                          </ul>
+
+                          <li data-toggle="collapse" data-target="#Beard" class="collapsed">
+                            <a href="#"><i class="fa fa-male"></i>Beard - (Only for Male) <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="Beard">
+                            <mat-radio-group aria-label="Select an option">
+                                <li> <mat-radio-button value="1">Yes</mat-radio-button></li>
+                                 <li><mat-radio-button value="2">No</mat-radio-button></li>
+                                 </mat-radio-group>
+                          </ul>
+
+                          <li data-toggle="collapse" data-target="#Hijab" class="collapsed">
+                            <a href="#"><i class="fa fa-female"></i>Hijab - (Only for Female) <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="Hijab">
+                            <mat-radio-group aria-label="Select an option">
+                                <li> <mat-radio-button value="1">Yes</mat-radio-button></li>
+                                 <li><mat-radio-button value="2">No</mat-radio-button></li>
+                                 </mat-radio-group>
+                          </ul>
+                          <li data-toggle="collapse" data-target="#com" class="collapsed">
+                            <a href="#"><i class="fa fa-magic"></i>Complexion <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="com">
+                            <mat-radio-group aria-label="Select an option">
+                                <li> <mat-radio-button value="1">Fair</mat-radio-button></li>
+                                 <li><mat-radio-button value="2">Very Fair</mat-radio-button></li>
+                                 <li><mat-radio-button value="3">Wheatish</mat-radio-button></li>
+                                 <li><mat-radio-button value="4">Dark</mat-radio-button></li>
+                                 </mat-radio-group>
+                          </ul>
+                         
+
+                          <li data-toggle="collapse" data-target="#ed" class="collapsed">
+                            <a href="#"><i class="fa fa-user-md"></i>Education <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="ed">
+                            <mat-radio-group aria-label="Select an option">
+                                <li> <mat-radio-button value="1">No Education</mat-radio-button></li>
+                                 <li><mat-radio-button value="2">Primary</mat-radio-button></li>
+                                 <li><mat-radio-button value="3">High School(10th/12th)</mat-radio-button></li>
+                                 <li><mat-radio-button value="4">Diploma</mat-radio-button></li>
+                                 <li><mat-radio-button value="5">Graduate</mat-radio-button></li>
+                                 <li><mat-radio-button value="6">Post Graduate</mat-radio-button></li>
+                                 <li><mat-radio-button value="7">Phd</mat-radio-button></li>
+                                 </mat-radio-group>
+                          </ul>
+                         
+
+                          <li data-toggle="collapse" data-target="#wk" class="collapsed">
+                            <a href="#"><i class="fa fa-briefcase"></i>Work <span class="arrow"></span></a>
+                          </li>  
+                          <ul class="sub-menu collapse" id="wk">
+                            <mat-radio-group aria-label="Select an option">
+                                <li> <mat-radio-button value="1">Unemployed</mat-radio-button></li>
+                                 <li><mat-radio-button value="2">Student</mat-radio-button></li>
+                                 <li><mat-radio-button value="3">Homemaker</mat-radio-button></li>
+                                 <li><mat-radio-button value="4">Private Job</mat-radio-button></li>
+                                 <li><mat-radio-button value="5">Govt Job</mat-radio-button></li>
+                                 <li><mat-radio-button value="6">Business</mat-radio-button></li>
+                               
+                                 </mat-radio-group>
+                          </ul>
+
+                        
+                        
+        
+        
+                        
+                    </ul>
+             </div>
+        </div>
+             </div>
+             &nbsp;&nbsp;&nbsp;
+             <mat-tab-group style="width: 80%;">
+                <mat-tab label="List View"> <br>
+                    <div class="col-md-8">
+                        <div class="row" style="width: 135%; background-color: beige; border-bottom: 4px solid white;">
+                            <div class="col-md-6"> 
+                                <p style="color:black;font-size:20px;">Shirin Khan</p>
+                                <p style="font-size:12px;">(12QTV57W)&nbsp; profile created by myself </p>
+                                <img  src="assets/images/profile8.jpg" class="rounded-square z-depth-0" style="width: 45%; height: 65%;">
+                                <p style="font-size:12px;">Last login 1day ago </p>
+                            </div>
+                            <br>
+                            <div class="col-md-6"style="margin-top: 75px;">
+                                
+                                
+                       <p style="color:black;">Gender: Female</p>
+                       <p>Age: 27</p>
+                       <p>Marital Status: Unmarried</p>
+                       <p>City: Raipur &nbsp; State: Chhattisgarh</p>
+                    
+                       <button type="button" class="btn btn-warning " style="color: white; font-size: 15px;"><i class="fa fa-heart"></i>&nbsp;I am Interested</button>&nbsp;
+                       <button type="button" class="btn btn-primary " style="font-size: 15px;">View Profile</button>
+                        
+                        <!-- <p><strong>33% Off <a href="">&nbsp;2 offers available&nbsp;<i class="fa fa-info-circle"></i></a></strong></p> -->
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                              
+                               </div><br>
+                               <div class="row">
+                               
+                               </div>
+                            </div>
+                        </div>
+                    </div> 
+                           <br><br>
+                           <div class="col-md-8">
+                            <div class="row" style="width: 135%; background-color: beige; border-bottom: 4px solid white;" >
+                                <div class="col-md-6"> 
+                                    <p style="color:black;font-size:20px;">Shirin Khan</p>
+                                    <p style="font-size:12px;">(12QTV57W)&nbsp; profile created by myself </p>
+                                    <img  src="assets/images/profile8.jpg" class="rounded-square z-depth-0" style="width: 45%; height: 65%;">
+                                    <p style="font-size:12px;">Last login 1day ago </p>
+                                </div>
+                                <br>
+                                <div class="col-md-6"style="margin-top: 75px;">
+                                    
+                                    
+                           <p style="color:black;">Gender: Female</p>
+                           <p>Age: 27</p>
+                           <p>Marital Status: Unmarried</p>
+                           <p>City: Raipur &nbsp; State: Chhattisgarh</p>
+                        
+                           <button type="button" class="btn btn-warning " style="color: white; font-size: 15px;"><i class="fa fa-heart"></i>&nbsp;I am Interested</button>&nbsp;
+                           <button type="button" class="btn btn-primary " style="font-size: 15px;">View Profile</button>
+                            
+                            <!-- <p><strong>33% Off <a href="">&nbsp;2 offers available&nbsp;<i class="fa fa-info-circle"></i></a></strong></p> -->
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                  
+                                   </div><br>
+                                   <div class="row">
+                                   
+                                   </div>
+                                </div>
+                            </div>
+                               </div>
+                               <br>
+                               <div class="col-md-8">
+                                <div class="row" style="width: 135%; background-color: beige; border-bottom: 4px solid white;">
+                                    <div class="col-md-6"> 
+                                        <p style="color:black;font-size:20px;">Shirin Khan</p>
+                                        <p style="font-size:12px;">(12QTV57W)&nbsp; profile created by myself </p>
+                                        <img  src="assets/images/profile8.jpg" class="rounded-square z-depth-0" style="width: 45%; height: 65%;">
+                                        <p style="font-size:12px;">Last login 1day ago </p>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6"style="margin-top: 75px;">
+                                        
+                                        
+                               <p style="color:black;">Gender: Female</p>
+                               <p>Age: 27</p>
+                               <p>Marital Status: Unmarried</p>
+                               <p>City: Raipur &nbsp; State: Chhattisgarh</p>
+                            
+                               <button type="button" class="btn btn-warning " style="color: white; font-size: 15px;"><i class="fa fa-heart"></i>&nbsp;I am Interested</button>&nbsp;
+                               <button type="button" class="btn btn-primary " style="font-size: 15px;">View Profile</button>
+                                
+                                <!-- <p><strong>33% Off <a href="">&nbsp;2 offers available&nbsp;<i class="fa fa-info-circle"></i></a></strong></p> -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="row">
+                                      
+                                       </div><br>
+                                       <div class="row">
+                                       
+                                       </div>
+                                    </div>
+                                </div>
+                                   </div>
+                                   <br>
+                                   <div class="col-md-8">
+                                    <div class="row" style="width: 135%; background-color: beige; border-bottom: 4px solid white;">
+                                        <div class="col-md-6"> 
+                                            <p style="color:black;font-size:20px;">Shirin Khan</p>
+                                            <p style="font-size:12px;">(12QTV57W)&nbsp; profile created by myself </p>
+                                            <img  src="assets/images/profile3.jpg" class="rounded-square z-depth-0" style="width: 45%; height: 65%;">
+                                            <p style="font-size:12px;">Last login 1day ago </p>
+                                        </div>
+                                        <br>
+                                        <div class="col-md-6"style="margin-top: 75px;">
+                                            
+                                            
+                                   <p style="color:black;">Gender: Female</p>
+                                   <p>Age: 27</p>
+                                   <p>Marital Status: Unmarried</p>
+                                   <p>City: Raipur &nbsp; State: Chhattisgarh</p>
+                                
+                                   <button type="button" class="btn btn-warning " style="color: white; font-size: 15px;"><i class="fa fa-heart"></i>&nbsp;I am Interested</button>&nbsp;
+                                   <button type="button" class="btn btn-primary " style="font-size: 15px;">View Profile</button>
+                                    
+                                    <!-- <p><strong>33% Off <a href="">&nbsp;2 offers available&nbsp;<i class="fa fa-info-circle"></i></a></strong></p> -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                          
+                                           </div><br>
+                                           <div class="row">
+                                           
+                                           </div>
+                                        </div>
+                                    </div>
+                                       </div>   
+                </mat-tab>
+                <!-- <mat-tab label="Grid View"> Content 2 </mat-tab> -->
+              </mat-tab-group>
+
+             
+                   </div> 
+
+
+                </div>
+                <router-outlet></router-outlet>
+                

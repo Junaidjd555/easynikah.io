@@ -1,0 +1,36 @@
+
+<div class="container-fluid" style="background-color: rgb(238, 77, 49);opacity: .7;">
+    <!-- top header -->
+    <!-- nav -->
+    <nav class="py-3">
+    <div id="logo">
+        <h1>
+            <a class="navbar-brand" href="#" style="font-size: 40px; margin-bottom: 10px;"> <img src="assets/images/logo1.png" style="height: 45px; width: 45px;"> Easy <span style="font-size: 15px;"><span class="line"></span>Nikah</span> 
+            </a>
+        </h1>
+    </div>
+    <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+        <input type="checkbox" id="drop" />
+    
+    <ul class="menu mt-2">
+        <li class="mr-lg-3 mr-2 active"><a routerLink="/home">Home</a></li>
+        <li class="mr-lg-3 mr-2" ><a routerLink="/profile">Profiles</a></li>
+        <li class="mr-lg-3 mr-2"><a href="">Matches</a></li>
+        <li class="mr-lg-3 mr-2 pb-0">
+        <!-- First Tier Drop Down -->
+        <label for="drop-2" class="toggle">Manage Profile <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+        <a href="#">Manage Profile <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+        <input type="checkbox" id="drop-2"/>
+        <ul class="drop-down-ul">
+            <li><a href="">Create Profile</a></li>
+            <li><a href="">Edit Profile</a></li>
+            <li><a href="">Delete Profile</a></li>
+        </ul>
+        </li>
+    </ul>
+
+   
+    </nav>
+    <!-- //nav -->
+</div>
+<router-outlet></router-outlet>

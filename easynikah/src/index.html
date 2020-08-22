@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Easy Nikah</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+    
+	<!-- css files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+
+	<!--web font-->
+  <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+  
+
+</head>
+<body class="mat-typography">
+  <app-root></app-root>
+  
+  <script>
+    (function(){
+      if(typeof _bsa !== 'undefined' && _bsa) {
+          // format, zoneKey, segment:value, options
+          _bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+        }
+    })();
+    </script>
+    <script>
+    (function(){
+    if(typeof _bsa !== 'undefined' && _bsa) {
+      // format, zoneKey, segment:value, options
+      _bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+    }
+    })();
+    </script>
+    <script>
+    (function(){
+      if(typeof _bsa !== 'undefined' && _bsa) {
+          // format, zoneKey, segment:value, options
+          _bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+        }
+    })();
+    </script>
+    <div id="codefund"><!-- fallback content --></div>
+    <script src="https://codefund.io/properties/441/funder.js" async="async"></script>
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-149859901-1');
+    </script>
+    
+    <script>
+         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+         ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+         ga('require', 'eventTracker');
+         ga('require', 'outboundLinkTracker');
+         ga('require', 'urlChangeTracker');
+         ga('send', 'pageview');
+       </script>
+    <script async src='/js/autotrack.js'></script>
+    <script>
+      $("#signup").click(function() {
+
+$("#first").fadeOut("fast", function() {
+
+$("#second").fadeIn("fast");
+
+});
+});
+
+$("#signin").click(function() {
+$("#second").fadeOut("fast", function() {
+$("#first").fadeIn("fast");
+});
+});
+
+
+  
+         $(function() {
+           $("form[name='login']").validate({
+             rules: {
+               
+               email: {
+                 required: true,
+                 email: true
+               },
+               password: {
+                 required: true,
+                 
+               }
+             },
+              messages: {
+               email: "Please enter a valid email address",
+              
+               password: {
+                 required: "Please enter password",
+                
+               }
+               
+             },
+             submitHandler: function(form) {
+               form.submit();
+             }
+           });
+         });
+         
+
+
+$(function() {
+  
+  $("form[name='registration']").validate({
+    rules: {
+      firstname: "required",
+      lastname: "required",
+      email: {
+        required: true,
+        email: true
+      },
+      password: {
+        required: true,
+        minlength: 5
+      }
+    },
+    
+    messages: {
+      firstname: "Please enter your firstname",
+      lastname: "Please enter your lastname",
+      password: {
+        required: "Please provide a password",
+        minlength: "Your password must be at least 5 characters long"
+      },
+      email: "Please enter a valid email address"
+    },
+  
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
+});
+
+    </script>
+
+<script >
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+  dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
